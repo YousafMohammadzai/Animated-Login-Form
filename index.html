@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Long In Form</title>
+</head>
+<body>
+    <div class="wrapper">
+        <span class="bgAnimate"></span>
+        <span class="bgAnimate2"></span>
+
+        <div class="formBox login">
+            <h2 class="animation" style="--i:0; --j:21;">Login</h2>
+
+            <form action="#">
+                <div class="inputBox animation" style="--i:1; --j:22;">
+                    <input type="text" required>
+                    <label>Username</label><img src="Images/adim.ico" alt="">
+                </div>
+                <div class="inputBox animation" style="--i:2; --j:23;">
+                    <input type="password" required>
+                    <label>Password</label><img src="Images/lock.ico">
+                </div>
+
+                <button type="submit" class="btn animation" style="--i:3; --j:24;">Login</button>
+                <div class="logreg animation" style="--i:4; --j:25;">
+                    <p>Don't have an account? <a href="#">Sign Up</a></p>
+                </div>
+            </form>
+        </div> 
+        <div class="infoText login">
+            <h2 class="animation" style="--i:0; --j:20;">Welcome Back!</h2>
+            <p class="animation" style="--i:1; --j:21;">Sign in to our website to use ful package</p>
+        </div>
+        <!-- code for the sign up page-->
+        <div class="formBox register ">
+            <h2 class="animation" style="--i:17; --j:0;">Sign Up</h2>
+            <form action="#">
+                <div class="inputBox animation" style="--i:18; --j:1;">
+                    <input type="text" required>
+                    <label>Username</label><img src="Images/adim.ico" alt="">
+                </div>
+                <div class="inputBox animation" style="--i:19; --j:2;">
+                    <input type="text" required>
+                    <label>Email</label><img src="Images/mail.ico" alt="">
+                </div>
+                <div class="inputBox animation" style="--i:20; --j:3;">
+                    <input type="password" required>
+                    <label>Password</label><img src="Images/lock.ico">
+                </div>
+                <button type="submit" class="btn animation" style="--i:21; --j:4;">Sign Up</button>
+                <div class="logreg animation" style="--i:22; --j:5;">
+                    <p>Already have an account? <a class="loginLink" href="#">Sign in</a></p>
+                </div>
+            </form>
+        </div> 
+        <div class="infoText register">
+            <h2 class="animation" style="--i:17; --j:0;">Welcome Back!</h2>
+            <p class="animation" style="--i:18; --j:1;">Sign in to our website to use ful package</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
